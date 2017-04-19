@@ -1,0 +1,8 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  session:
+    store-type: jdbc
+    jdbc:
+      schema: classpath:org/springframework/session/jdbc/schema-h2.sql
